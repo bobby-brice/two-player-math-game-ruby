@@ -46,6 +46,14 @@ class GameMaster
     end
   end
 
+   #concludes the game, reporting the winner
+  def end_game
+    puts "\n\n------- GAME OVER -------"
+    puts "#{@active_player.name}, you've run out of lives.\n\n"
+    switch_player
+    puts "#{@active_player.name}, you win with #{@active_player.lives} #{(@active_player.lives) == 1 ? "life" : "lives"} remaining"
+  end
+
   
   
 end
