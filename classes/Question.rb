@@ -8,7 +8,7 @@ class Question
   end
 
   def display_question
-    "What's #{@first_number} + #{@second_number}"
+    "What's #{@first_number} + #{@second_number}? >  "
   end
   
   def correct?(guess)
