@@ -5,3 +5,4 @@ require "./classes/GameMaster"
 game = GameMaster.new
 
 game.run_game
+

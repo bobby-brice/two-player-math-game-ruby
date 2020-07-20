@@ -11,5 +11,4 @@ class Player
   end
 end
 
-player1 = Player.new("Bobby")
-puts player1
+
