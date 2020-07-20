@@ -43,9 +43,10 @@
 @which_round
 
 - initialize_players
+- run_game
 - which_round
 - increment_round
 - active_player
 - switch_player
-- run_round
+- next_round
 - end_game
