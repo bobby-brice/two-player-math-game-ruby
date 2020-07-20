@@ -9,7 +9,7 @@ class GameMaster
     @question_limit = 40
   end
   
-  #starts the game
+  #starts the main game logic
   def run_game
      puts "Welcome to the addition game!"
 
