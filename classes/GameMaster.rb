@@ -33,4 +33,19 @@ class GameMaster
     end_game
   end
 
+  def increment_round
+    @which_round += 1
+  end
   
+  # Checks the active player against @players and changes @active_player to the other
+  def switch_player
+    if (@active_player == @players[0])
+      @active_player = @players[1]
+    else
+      @active_player = @players[0]
+    end
+  end
+
+  
+  
+end
